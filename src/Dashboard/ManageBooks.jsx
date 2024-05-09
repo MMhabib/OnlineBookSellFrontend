@@ -1,5 +1,6 @@
+/* eslint-disable no-unused-vars */
 import { Table } from 'flowbite-react'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Pagination } from 'flowbite-react';
 import { Link } from 'react-router-dom';
 
@@ -30,7 +31,7 @@ const ManageBooks = () => {
 
     // pagination
     const [currentPage, setCurrentPage] = useState(1);
-    const onPageChange = () => setCurrentPage(page);
+    const onPageChange = () => setCurrentPage(currentPage);
 
     return (
         <div className='px-4 my-12'>
