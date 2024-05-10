@@ -51,7 +51,7 @@ const FooterMain = () => {
                 Licensing
               </Footer.Link>
               <Footer.Link href="#">
-                Terms & Conditions
+                Terms
               </Footer.Link>
             </Footer.LinkGroup>
           </div>
